@@ -6,7 +6,6 @@
  Type=forking
  ExecStart=<%= $rclocal::config_file %> start
  TimeoutSec=0
- StandardOutput=tty
  RemainAfterExit=yes
 
 [Install]
